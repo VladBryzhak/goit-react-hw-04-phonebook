@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContactData = styled.p`
 margin-right: ${p => p.theme.spasing(3)};
-font-weight: 600;
+font-weight: ${p => p.theme.weight.accent};
 text-transform: capitalize;
 `;
 

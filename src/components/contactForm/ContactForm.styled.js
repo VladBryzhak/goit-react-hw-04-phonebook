@@ -14,7 +14,7 @@ export const FormWraper = styled.div`
 export const InputTitle = styled.span`
   display: block;
   margin-bottom: ${p => p.theme.spasing(3)};
-  font-weight: 600;
+  font-weight: ${p => p.theme.weight.accent};
 `;
 
 export const FieldWraper = styled.span`

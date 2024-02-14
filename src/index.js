@@ -5,8 +5,11 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from 'components/GlobalStyle';
 
 const theme = {
+  weight: {
+      accent: 600,
+    },
   colors: {
-    black: '#000000',
+        black: '#000000',
     grey: '#b3b3b3',
     error: 'red',
   },
